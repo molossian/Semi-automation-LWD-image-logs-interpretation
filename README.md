@@ -4,7 +4,7 @@ Image logs can provide critical information to reduce drilling risk, as they all
 
 ![DL_flow](https://github.com/molossian/LILI/assets/99076265/5dd1bbd6-3ef2-4bc3-ac50-efd990b16c18)
 
-- # in the U-Net folder you can find the following python files:
+- # in the U-Net folder you can find the following files:
   - data_both: python file to generate synthetic dataset during standard learning of the U-Net architecture (SL-PickNet in the paper)
   - data_complex: python file to generate complex synthetic dataset tu use in fine-tuning the U-Net (CL-PickNet in the paper) following curriculum       learning
   - data_easy:  python file to generate simple synthetic dataset tu use in pre-training the U-Net  (CL-PickNet in the paper) following curriculum       learning
@@ -16,12 +16,9 @@ Image logs can provide critical information to reduce drilling risk, as they all
   - SL animation:  segmentation results of SL-PickNet  on windowed field dataset
   - CL-PickNet fine-tuned saved model
   - SL-PickNet saved model
-- #  in the 01_MC_serverp05 folder you can find the following python files:
+- #  in the 01_MC_serverp05 folder you can find the following  files:
   -  01_train: file for FitNet05 training
   -  fig, animations folder containing figures of Montecarlo Dropout method results and animations of features correlation of Fitnet05 on CL and SL segmentation maps
   -  FitNet05 model: the saved model that produced the results in the paper.
-![sinusoidsex05SL](https://github.com/molossian/LILI/assets/99076265/5d8b43a2-f713-48c4-b1e4-ae9b2957156e)
-
-![sinusoidsex05](https://github.com/molossian/LILI/assets/99076265/2ccb9bfb-22f0-41e5-bfc1-a3c99d812952)
 
 
