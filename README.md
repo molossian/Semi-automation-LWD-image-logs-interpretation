@@ -20,3 +20,4 @@ Image logs can provide critical information to reduce drilling risk, as they all
   -  01_train: file for FitNet05 training
   -  fig, animations folder containing figures of Montecarlo Dropout method results and animations of features correlation of Fitnet05 on CL and SL segmentation maps
   -  FitNet05 model: the saved model that produced the results in the paper.
+![sinusoidsex05SL](https://github.com/molossian/LILI/assets/99076265/5d8b43a2-f713-48c4-b1e4-ae9b2957156e)
