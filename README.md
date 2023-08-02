@@ -13,7 +13,7 @@ Image logs can provide critical information to reduce drilling risk, as they all
   - SL animation:  segmentation results of SL-PickNet  on windowed field dataset
   - CL-PickNet fine-tuned saved model
   - SL-PickNet saved model
-- #  in the 01_MC_serverp05folder you can find the following python files:
+- #  in the 01_MC_serverp05 folder you can find the following python files:
   -  01_train: file for FitNet05 training
   -  fig, animations folder containing figures of Montecarlo Dropout method results and animations of features correlation of Fitnet05 on CL and SL segmentation maps
   -  FitNet05 model: the saved model that produced the results in the paper.
