@@ -22,5 +22,6 @@ Image logs can provide critical information to reduce drilling risk, as they all
   -  FitNet05 model: the saved model that produced the results in the paper.
 ![sinusoidsex05SL](https://github.com/molossian/LILI/assets/99076265/5d8b43a2-f713-48c4-b1e4-ae9b2957156e)
 
-![Uploading sinusoidsex05.png…]()
+![sinusoidsex05](https://github.com/molossian/LILI/assets/99076265/2ccb9bfb-22f0-41e5-bfc1-a3c99d812952)
+
 
