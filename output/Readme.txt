@@ -1,7 +1,7 @@
 In thid folder you find the data to reproduce the results in the paper.
 These are .npy files that can be loaded in a python file using numpy.
 
-- LWD data interval: for confidentiality agreement with Eni, I can't share the whole dataset available. I share the 100 samples interval plotted in the paper figures
+- LWD data interval: for confidentiality agreement with Eni, I can't share the whole dataset available. I share the 100 samples interval plotted in the paper figures 12 and 13.
 - restored segmentation maps: the segmentation maps from SL- and CL- PickNets for the 100 samples interval (see above)
 - FitNet05 on segmentation maps:
     - FitNet05 x SL-PickNet: features correlation results on SL segmentation map
