@@ -25,7 +25,7 @@ def get_model(mc=False, act="relu"):
     x = get_dropout(x, p=0.5, mc=mc)
     x = tf.keras.layers.Conv2D(8, kernel_size=(3, 3), strides = (1,1), padding = "same", activation=act)(x)
     x = tf.keras.layers.Conv2D(4, kernel_size=(3, 3), strides = (1,1), padding = "same", activation=act)(x)
-    #x = get_dropout(x, p=0.25, mc=mc)
+    #x = get_dropout(x, p=0.5, mc=mc)
     x = tf.keras.layers.Conv2D(1, kernel_size=(3, 3), strides = (1,1), padding = "same", activation=act)(x)
     x = tf.keras.layers.Flatten()(x)
     out = tf.keras.layers.Dense(48, activation=act)(x)
