@@ -2,7 +2,8 @@
 
 Image logs can provide critical information to reduce drilling risk, as they allow for early detection of structures such as faults or fractures. This kind of information can be critical during drilling operations, but the time required to manually interpret the data and the subjectivity of interpretations can undermine the timeliness of delivery of results. The proposed methodology is a supervised Deep Learning - based method built on U-Net architecture for segmentation of image logs acquired while drilling, i.e., automated detection of geological edges in borehole images. The proposed network has been trained on synthetic data and tested on field data. Curriculum learning involves a pre-training step on simple cases and a fine-tuning step on more complex ones, whereas standard learning is composed of one single step on a set of cases of random complexity.  The results of curriculum learning (CL-PickNet) show that the network’s predictions return more populated segmentation maps than those of the network trained with standard training (SL-PickNet) and can help the development of a fully automated system for the interpretation of image logs. On the resulting segmentation maps we then perform the non-linear regression for the correlation of features and observe the different results on the CL-PickNet and SL-PickNet predictions using FiNet05. The workflow is resumed in the figure.
 
-![DL_flow](https://github.com/molossian/LILI/assets/99076265/5dd1bbd6-3ef2-4bc3-ac50-efd990b16c18)
+![DL_flow](https://github.com/molossian/LILI/assets/99076265/7424ffa5-f7cf-401d-a880-968613b47803)
+
 
 - # in the U-Net folder you can find the following files:
   - data_both: python file to generate synthetic dataset during standard learning of the U-Net architecture (SL-PickNet in the paper)
